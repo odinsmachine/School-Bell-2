@@ -73,11 +73,11 @@ def schoolBell(bellTime,bellTolls,bellTick,bellValue01,bellValue02,bellValue03,b
             if curr_time == bellValue01:
                 if bellTime == True:
                     print("> Bell chime!")
-                    #pygame.mixer.init()
-                    #pygame.mixer.music.load("PuppetsDream.mp3")
-                    #pygame.mixer.music.play()
-                    #while pygame.mixer.music.get_busy() == True:
-                    #    continue
+                    pygame.mixer.init()
+                    pygame.mixer.music.load("Temple.wav")
+                    pygame.mixer.music.play()
+                    while pygame.mixer.music.get_busy() == True:
+                        continue
                     bellTime = False
                     bellTolls = bellTolls + 1
                     time.sleep(60)
@@ -88,11 +88,11 @@ def schoolBell(bellTime,bellTolls,bellTick,bellValue01,bellValue02,bellValue03,b
             elif curr_time == bellValue02:
                 if bellTime == True:
                     print("> Bell chime!")
-                    #pygame.mixer.init()
-                    #pygame.mixer.music.load("PuppetsDream.mp3")
-                    #pygame.mixer.music.play()
-                    #while pygame.mixer.music.get_busy() == True:
-                    #    continue
+                    pygame.mixer.init()
+                    pygame.mixer.music.load("Temple.wav")
+                    pygame.mixer.music.play()
+                    while pygame.mixer.music.get_busy() == True:
+                        continue
                     bellTime = False
                     bellTolls = bellTolls + 1
                     time.sleep(60)
@@ -103,11 +103,11 @@ def schoolBell(bellTime,bellTolls,bellTick,bellValue01,bellValue02,bellValue03,b
             elif curr_time == bellValue03:
                 if bellTime == True:
                     print("> Bell chime!")
-                    #pygame.mixer.init()
-                    #pygame.mixer.music.load("PuppetsDream.mp3")
-                    #pygame.mixer.music.play()
-                    #while pygame.mixer.music.get_busy() == True:
-                    #    continue
+                    pygame.mixer.init()
+                    pygame.mixer.music.load("Temple.wav")
+                    pygame.mixer.music.play()
+                    while pygame.mixer.music.get_busy() == True:
+                        continue
                     bellTime = False
                     bellTolls = bellTolls + 1
                     time.sleep(60)
@@ -118,11 +118,11 @@ def schoolBell(bellTime,bellTolls,bellTick,bellValue01,bellValue02,bellValue03,b
             elif curr_time == bellValue04:
                 if bellTime == True:
                     print("> Bell chime!")
-                    #pygame.mixer.init()
-                    #pygame.mixer.music.load("PuppetsDream.mp3")
-                    #pygame.mixer.music.play()
-                    #while pygame.mixer.music.get_busy() == True:
-                    #    continue
+                    pygame.mixer.init()
+                    pygame.mixer.music.load("Temple.wav")
+                    pygame.mixer.music.play()
+                    while pygame.mixer.music.get_busy() == True:
+                        continue
                     bellTime = False
                     bellTolls = bellTolls + 1
                     time.sleep(60)
