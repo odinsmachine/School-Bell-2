@@ -1,6 +1,6 @@
 import time
 import datetime
-#import pygame
+import pygame
 
 bellTolls = 0
 currentTime = 0
